@@ -6,27 +6,25 @@ to find the first unique string in a list. The time complexity is O(log n).*/
 #include <vector>
 #include <map>
 
-using namespace std;
-
-string firstUniqueItem(const vector<string>& items)
+std::string firstUniqueItem(const std::vector<std::string>& items)
 {
 
-    map<string, int> quantities;
-    for (const string& item : items) {
+    std::map<std::string, int> quantities;
+    for (const std::string& item : items) {
         quantities[item]++;
     }
 
-    for (const string& item : items) {
+    for (const std::string& item : items) {
         if (quantities[item] == 1) {
             return item;
         }
     }
     
-    throw logic_error("Waiting to be implemented");
+    throw std::logic_error("Waiting to be implemented");
 }
 
 int main()
 {
-    vector<string> items = { "Keyboard", "Computer", "Keyboard", "Berrie", "Bag", "Computer", "Perry", "Berrie", "Talisker" };
-    cout << firstUniqueItem(items);
+    std::vector<std::string> items = { "Keyboard", "Computer", "Keyboard", "Berrie", "Bag", "Computer", "Perry", "Berrie", "Talisker" };
+    std::cout << firstUniqueItem(items);
 }
