@@ -1,5 +1,5 @@
-/*25.2.2023 Lauri Inkilä – this algorithm utilizes self balancing binary tree (red black binary tree)
-to find the first unique string in a list. The time complexity is O(log n).*/
+/*28.2.2023 This function looks for the first unique string in the input vector using a std::map to count the duplicates of each string. 
+The time complexity of this algorithm is O(n log n) due to the use of std::map.*/
 
 #include <stdexcept>
 #include <iostream>
