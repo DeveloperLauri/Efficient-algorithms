@@ -1,1 +1,2 @@
-Algorithms utilizing efficient data structures.
+# Efficient data structure algorithms 
+* firstUniqueItem time complexity is O(log n).
