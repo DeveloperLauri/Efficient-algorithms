@@ -1,5 +1,5 @@
 /*28.2.2023 This function looks for the first unique string in the input vector using a std::map to count the duplicates of each string. 
-The time complexity of this algorithm is O(n log n) due to the use of std::map.*/
+The time complexity of this algorithm is O(n log n)*/
 
 #include <stdexcept>
 #include <iostream>
