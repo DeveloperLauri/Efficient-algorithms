@@ -1,5 +1,5 @@
 /*28.2.2023 This function looks for the first unique string in the input vector using a std::unordered_map to count the duplicates of each string. 
-The time complexity of this algorithm is O(1) due to the use of std::unordered_map.*/
+The time complexity of this algorithm is O(n)*/
 
 #include <stdexcept>
 #include <iostream>
