@@ -1,2 +1,3 @@
 # Efficient data structure algorithms 
-* firstUniqueItem time complexity is O(log n).
+* firstUniqueItem2 time complexity is O(n).
+* firstUniqueItem time complexity is O(n log n).
